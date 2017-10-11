@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #F3EEEB;
+}
+
+#content {
+	position: absolute;
+	top: 100px;
+	left: 280px;
+	background-color: #FFFFFF;
+	height: auto;
+	max-width: 70%;
+	font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	float: right;
+	border-top: #F26E3F 5px solid;
+}
+
+h1 {
+	font-size: 2.5em;
+	padding-bottom: 1em;
+}
+
+nav {
+	float: left;
+	height: 100%;
+	width: 10%;
+	font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #656A72;
+	position: absolute;
+}
+
+nav ul {
+	top: 100px;
+  	padding: 10px;
+	margin-left: 20px;
+	position: absolute;
+	border-left: 3px dotted black;
+}
+
+nav li {
+	padding: 4px;
+}
+
+a:link, a:visited {
+	text-decoration-line: underline;
+	color: #404040;
+}
+
+a:hover, a:active {
+	text-decoration-line: underline
+	color: #404040;	
+}
+
+p {
+	padding: 10px;
+}
+
+img {
+	width:37%;
+	float:right;
+	margin:2% 3%;
+	border:2px dotted #f5f5f5;
+}

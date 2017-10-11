@@ -1,0 +1,99 @@
+/* CSS for 3 designed objects index page */
+
+body {
+	background: #F3EEEB;
+	width: 90%;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+main {
+	background-color: #FFFFFF;
+	max-width: 70%;  /* increasing shifts content box left */
+	height: auto;
+	font-size: 1em;
+	font-weight: normal;
+	float: right;
+	border-top: #F26E3F 5px solid;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 2.5em;
+	padding-bottom: 3%;
+	padding-left: 3%;
+}
+
+.intro {
+	margin-top: 5%;
+	padding-left: 3%;
+}
+
+.photos {
+	display: block;
+	max-width: 75%;
+}
+
+/* menu style */
+nav {
+	float: left;
+	height: 100%;
+	width: auto;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #656A72;
+}
+
+nav ul {
+	margin-top: 5%;
+	margin-left: 4%;
+	position: absolute;
+	border-left: 3px dotted black;
+	list-style-type: none;
+}
+
+nav li {
+	padding-bottom: 10%;
+
+}
+
+/* link styles */
+
+a {
+	text-decoration: underline;
+	color: #404040;
+}
+
+a:visited {
+	text-decoration: underline;
+	color: #F26E3F;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+	color: #F26E3F;
+}
+
+
+img {
+	width:37%;
+	float:right;
+	margin:2% 3%;
+	border: 4px dotted #f5f5f5;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+	padding-top: 10%;
+  text-align: center;
+	overflow: hidden; /*    Do not remove. Keeps footer from floating up over content */
+}
+
+/* .clearfix:after {
+visibility: hidden;
+display: block;
+content: "";
+clear: both;
+height: 0;
+} */
